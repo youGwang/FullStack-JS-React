@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array practice</title>
+    <style>
+        table, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table></table>
+    <script>
+        // 0. 과목 수,과목 이름, 과목 점수, 총점, 평균 초기화
+        let subNum = 0;
+        let subName = [];
+        let subScore = [];
+        let totalScore = 0;
+        let avgScore = 0;
+        
+        // 1. 과목 수 입력
+        subNum = Number(prompt('과목 수 입력'));
+        
+        // 2. 과목 수만큼 과목 이름 입력
+        
+        for(let i=0; i<subNum; i++){
+            subName.push(prompt('과목 이름 입력'))
+        }
+        console.log(subName);
+        //    과목 이름 입력창이 과목 수만큼 반복되어야 한다!
+       
+        
+        
+        // 3. 각 과목들의 점수를 입력
+        // 000의 점수 입력
+        // 4. 총점,평균 값을 도출
+        
+        for(let i=0; i<subNum; i++){
+                    let score = Number(prompt(`${subName[i]}의 점수 입력`));
+                    subScore.push(score)
+                    totalScore += score;
+        }
+        avgScore = parseInt(totalScore / subNum);
+        
+        
+        console.log(subScore);
+        console.log(totalScore, avgScore);
+        
+        // 5. 결과를 HTML 내 표 형태로 출력
+        // 과목 이름1, 과목 이름2, ..., 총점, 평균
+        // 과목 점수1, 과목 점수2, ..., total, avg
+        document.write(`
+        <table>
+            <tr>
+        `);
+        for(let i=0;i<subNum;i++){
+            document.write(`<td>${subName[i]}</td>`)
+        }
+        // document.write(`    
+        //         <td>${subName[0]}</td>
+        //         <td>${subName[1]}</td>
+        // `);
+        document.write(`
+                <td>총점</td>
+                <td>평균</td>
+            </tr>
+            <tr>
+        `);
+        // document.write(`
+        //         <td>${subScore[0]}</td>
+        //         <td>${subScore[1]}</td>
+        // `);
+        for(let i=0; i<subNum;i++){
+            document.write(`<td>${subScore[i]}</td>`)
+        }
+        document.write(`
+                <td>${totalScore}</td>
+                <td>${avgScore}</td>
+            </tr>
+        </table>
+        `)
+
+    </script>
+</body>
+</html>
