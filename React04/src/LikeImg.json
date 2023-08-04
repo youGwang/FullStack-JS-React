@@ -1,0 +1,33 @@
+
+{
+    "list" : [
+        {
+            "name" : "카리나 너무 이쁘다",
+            "group"  : "에스파",
+            "content" : "카리나는 신이다 카리나는 너무 예쁘다 카리나는 엄청나다",
+            "imgSrc" : "https://i.ytimg.com/vi/U9nZbIu22Go/maxresdefault.jpg"
+            
+        }, {
+            "name" : "윈터는 너무 이쁘다",
+            "group"  : "에스파",
+            "content" : "윈터는 신이다 윈터는 너무 예쁘다 윈터는 엄청나다",
+            "imgSrc" : "https://blog.kakaocdn.net/dn/FChSr/btrrVY9FwIW/wCvDJjZJwktFI9SkkQoKI1/img.jpg"
+        }, {
+            "name" : "윈터는 너무 귀엽다",
+            "group"  : "에스파",
+            "content" : "에스파 짱짱 오우예~~",
+            "imgSrc" : "https://img2.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202201/23/mydaily/20220123015915098nflh.jpg"
+        }, {
+            "name" : "미쳤다 윈터",
+            "group"  : "에스파",
+            "content" : "우이이이이ㅣ이이이이ㅣ인 터터터터ㅓ텉",
+            "imgSrc" : "https://mblogthumb-phinf.pstatic.net/MjAyMTA5MDlfMTQy/MDAxNjMxMTkxMTcyNTQ2.Q16ewecOVv6_qecxYaqADmx7dkshJ0B9lc2OUizIelQg.0lD5Hl0ZzjUyINwRQkbCd0ciZv9sjwJ84Xvz4JeRRuEg.JPEG.guddleka/KakaoTalk_20210909_211348384_03.jpg?type=w800"
+        }, {
+            "name" : "카리나폼 미쳤다",
+            "group"  : "에스파",
+            "content" : "스스스파이시시시싯스스스파이시시시싯스스스파이시시시싯스스스파이시시시싯",
+            "imgSrc" : "https://menu.moneys.co.kr/moneyweek/thumb/2022/09/21/06/2022092112591532535_2.jpg"
+        }
+    ]
+
+}
